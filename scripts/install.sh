@@ -9,6 +9,6 @@ echo "Getting up mysql container..."
 sleep 15
 vendor/bin/sail artisan key:generate
 vendor/bin/sail artisan migrate:fresh --seed
-vendor/bin/sail php artisan jwt:generate-certs --force --algo=rsa --bits=4096 --sha=512 --passphrase=password
+vendor/bin/sail php artisan jwt:generate-certs --force --algo=rsa --bits=4096 --sha=512 --passphrase=jwt-passhrase
 vendor/bin/sail php ./vendor/bin/pest --parallel --colors
 vendor/bin/sail php artisan ascii:logo
