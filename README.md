@@ -1,5 +1,3 @@
-_VSCode ver en modo preview **Control + Shift + v**_  
-
 # IMPLEMENTATION OF JWT IN LARAVEL
 
 ## Getting Started
