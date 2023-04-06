@@ -4,4 +4,4 @@
 
 To set up the project, run the following commands:
 
-```./scripts/install.sh```
+```./install.sh```
