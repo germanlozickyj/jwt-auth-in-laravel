@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class ApiController extends Controller
+class ApiTestController extends Controller
 {
     public function __construct()
     {
