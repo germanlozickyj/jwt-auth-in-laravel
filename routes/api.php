@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::controller(ApiTestController::class)->group(function () {
+Route::controller(ApiTestController::class)->middleware('auth:api')->group(function () {
     Route::get('private-endpoint', 'privateEndopint');
 });
 
